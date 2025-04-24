@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: medium;
+  
 }
 
 .tittle,
@@ -12,4 +14,10 @@ h2 {
   text-align: center;
   color: aqua;
   font-size: larger;
+}
+:root{
+  --primary: #000000;
+  --secondary: #607d8b;
+  --tertiary: #f5f5f5;
+  --quaternary: #f0f0f  0;  
 }
